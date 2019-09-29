@@ -18,8 +18,8 @@ class Dog
   end 
   
   def self.print_all 
-    #[] << name 
-    puts @@all.to_s   
+    @@all
+    puts 
 end
 
 def self.clear_all
