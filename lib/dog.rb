@@ -18,3 +18,4 @@ class Dog
     [] << name 
     puts "#{name}"
 end 
+end 
