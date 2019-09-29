@@ -18,7 +18,7 @@ class Dog
   end 
   
   def print_all 
-    #[] << name 
+    [] << name 
     puts #{name}  
 end
 
