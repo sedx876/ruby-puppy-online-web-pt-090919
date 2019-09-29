@@ -19,7 +19,7 @@ class Dog
   
   def self.print_all 
     #[] << name 
-    puts name.each 
+    puts @@all  
 end
 
 def self.clear_all
