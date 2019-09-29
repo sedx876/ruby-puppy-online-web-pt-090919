@@ -17,9 +17,9 @@ class Dog
     @@all 
   end 
   
-  def print_all 
-    [] << name 
-    puts #{name}  
+  def self.print_all 
+    #[] << name 
+    puts @@name.to_s   
 end
 
 def self.clear_all
