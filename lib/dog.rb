@@ -12,6 +12,6 @@ class Dog
   end 
   
   def self.print_all 
-    @@all << []
+    [] << name 
     puts "#{name}"
 end 
